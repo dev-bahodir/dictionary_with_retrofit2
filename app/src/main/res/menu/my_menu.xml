@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="Search"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/selected"
+        android:icon="@drawable/bookmark"
+        android:title="Selected"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/history"
+        android:title="History"
+        app:showAsAction="withText" />
+
+</menu>
